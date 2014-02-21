@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/bm.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\五子棋\bmView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F1.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/bm.pdb" /debug /machine:I386 /out:"Debug/bm.exe" /pdbtype:sept 
+".\Debug\Again.obj"
+".\Debug\Begin.obj"
+".\Debug\bm.obj"
+".\Debug\bmDoc.obj"
+".\Debug\bmView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Splash.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Winmethod.obj"
+".\Debug\bm.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F2.tmp"
+<h3>Output Window</h3>
+Compiling...
+bmView.cpp
+E:\五子棋\bmView.cpp(891) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+E:\五子棋\bmView.cpp(896) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/bm.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Again.sbr" ".\Debug\Begin.sbr" ".\Debug\bm.sbr" ".\Debug\bmDoc.sbr" ".\Debug\bmView.sbr" ".\Debug\MainFrm.sbr" ".\Debug\Splash.sbr" ".\Debug\Winmethod.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+bm.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
