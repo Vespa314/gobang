@@ -15,11 +15,11 @@ Class3=CBmView
 Class4=CMainFrame
 
 ResourceCount=4
-Resource1=IDR_MAINFRAME
-Resource2=IDD_ABOUTBOX
+Resource1=IDD_ABOUTBOX
+Resource2=IDD_DIALOG1
 Class5=CAboutDlg
 Class6=CBegin
-Resource3=IDD_DIALOG1
+Resource3=IDR_MAINFRAME
 Class7=CAgain
 Class8=CSplashWnd
 Resource4=IDD_DIALOG2
